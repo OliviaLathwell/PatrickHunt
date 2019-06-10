@@ -120,7 +120,7 @@ h3 {
   height: 300px;
 }
 
-@media only screen and (min-width: 480px) {
+/* @media only screen and (min-width: 480px) {
   .card-body {
     height: 350px;
   }
@@ -135,13 +135,7 @@ h3 {
   .card-body {
     height: 320px;
   }
-}
-
-.carousel {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 7%;
-}
+} */
 
 #services {
   background-color: #fcfcfc;
@@ -282,4 +276,10 @@ Style updates by @akhil aravind
 .carousel-control-next,
 .carousel-control-prev {
   width: auto;
+}
+.owl-nav{
+  display: none;
+}
+.owl-carousel {
+    padding: 0 5% 0 5%;
 }
