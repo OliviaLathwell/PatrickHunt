@@ -411,21 +411,13 @@
       @akhil aravind
     -->
   <script>
-    $(".carousel-control-prev").click(function (event) {
-      event.preventDefault();
-      $("#services_carousel").carousel("prev");
-    });
-
-    $(".carousel-control-next").click(function (event) {
-      event.preventDefault();
-      $("#services_carousel").carousel("next");
-    });
     $(document).ready(function () {
-
-
       $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
         nav: true,
         responsive: {
           0: {
