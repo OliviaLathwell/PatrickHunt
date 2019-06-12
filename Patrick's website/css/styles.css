@@ -1,33 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 
 body {
   overflow-x: hidden;
-  font-family: 'Inconsolata', monospace;
-
+  font-family: "Inconsolata", monospace;
 }
-
 
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background-color: #000000
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: #000000;
 }
 
-
 .navbar-nav li {
-
-  padding-right: .7rem;
+  padding-right: 0.7rem;
   color: #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-
   color: black;
-  padding-top: .8rem;
+  padding-top: 0.8rem;
   color: #000000;
-
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
@@ -40,7 +34,6 @@ body {
 }
 
 .caption {
-
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -48,47 +41,35 @@ body {
   z-index: 1;
   color: black;
   top: 25%;
-
-
-
-
-
 }
 
 .caption h1 {
-
-   font-size: 3.8rem;
-   font-weight: 700;
-   letter-spacing: .3rem;
-
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
 }
 
 .caption h3 {
-
   font-size: 2rem;
   padding-bottom: 1.6rem;
 }
 
 .home-image {
   background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100vh;
-	background-position: center center;
-	position: relative;
-
-
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  position: relative;
 }
 
 .btn-lg {
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.3rem;
+  padding: 0.6rem 1.3rem;
   font-size: 1.1rem;
   color: black;
   border-color: black;
-
-
 }
 
 .btn-lg:hover {
@@ -97,287 +78,46 @@ body {
   border-color: transparent;
 }
 
-
 #about {
-
-
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   padding-top: 7%;
   font-size: 14px;
   padding-bottom: 7%;
-
-
-
-}
-
-.about {
-
 }
 
 .about-h1 {
-
   font-size: 10px;
 }
 
-.about-image{
-
-
-    width: 70%;
-    position: absolute;
-    right: 30%;
-    padding-top: 30%;
-  }
-
-
+.about-image {
+  width: 70%;
+  position: absolute;
+  right: 30%;
+  padding-top: 30%;
 }
 
-
 .aboutme {
-
-padding-top: 30%;
-
-
+  /* padding-top: 30%; */
 }
 
 h3 {
-
-text-align: center;
-padding-bottom: 3%;
-
+  text-align: center;
+  padding-bottom: 3%;
 }
-
-
-}
-
-.blog-link2 {
-
-
-}
-
-
-
 
 .services-title {
-
   text-align: center;
   padding-bottom: 3%;
 }
 
 .card2 {
-
   float: left;
   padding-top: 3%;
   display: inline-block;
-  }
 
+
+
+}
 .card-body {
-
-
-  height:300px;
-
-
-}
-
-@media only screen and (min-width: 480px) {
-
-  .card-body {
-height: 350px;
-
-}
-}
-
-@media only screen and (min-width: 768px) {
-
-  .card-body {
-height:520px;
-
-  }
-}
-@media only screen and (min-width: 992px)
-
-{
-
-  .card-body {
-height:320px;
-
-  }
-}
-
-
-
-
-
-
-.carousel {
-
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 7%;
-}
-
-#services {
-
-  background-color: #fcfcfc;
-  padding-bottom: 4%;
-
-}
-
-
-
-
-
-.testimonals  {
-
-
-border-color: white;
-padding-bottom: 7%;
-background-color: white;
-
-}
-
-.testimonals h1 {
-
-  text-align: center;
-  font-family: 'Inconsolata', monospace;
-  color: black;
-  padding-bottom: 10%;
-  padding-top: 3%;
-
-}
-
-.testimonals h1::after {
-
-  content: '';
-  height: 3px;
-  width: 170px;
-
-}
-
-
-
-
-
-.profile {
-
-  padding: 70px 10px;
-  background-color: #efefef;
-  padding: 70px 10px 10px;
-  height: 100%;
-  padding-bottom: 10%;
-
-}
-
-@media only screen and (min-width: 480px) {
-
-  .profile {
-height: 70%;
-
-}
-
-@media only screen and (min-width: 992px) {
-
-  .profile {
-height: 100%;
-
-}
-}
-.profile img {
-
-  top: -60px;
-position: absolute;
-  left: calc(50% -60px);
-  border: 10px solid white;
-}
-
-.user {
-
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-
-.profile h3 {
-
-  font-size: 20px;
-  margin-top: 15px;
-  color: black;
-}
-.testi {
-
-  padding-right: 2%;
-
-}
-blockquote {
-
-  font-size: 16px;
-  line-height: 30px;
-
-
-
-}
-
-
-blockquote::before {
-
-
-  font-size: 50px;
-  position: relative;
-  color: black;
-line-height:  20px;
-  bottom: -15px;
-  right: 5px;
-
-}
-
-blockquote::after {
-
-
-  font-size: 50px;
-  position: relative;
-  color: black;
-line-height:  10px;
-  bottom: -15px;
-  right: 5px;
-}
-
-
-  .profile:hover {
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
-  }
-
-
-  .page-footer {
-
-  background-color: #efefef;
-
-  }
-
-a {
-
-  color: black !important;
-
-  }
-
-  .icons {
-
-  padding-left: 45%;
-  padding-top: 5%;
-  }
-
-  .photography {
-display: inline-block;
-
-
-  }
-
-.photography img {
-
-  position: relative;
-  display: inline-block;
-    float: left;
-    width:  120%;
-    height: 500px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+  border: none !important; 
 }
